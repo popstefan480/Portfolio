@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Stefan Pop — software developer portfolio" />
+  <title>Stefan Pop | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#home">SP.</a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <p class="eyebrow">DATA SCIENCE STUDENT · DATA · DESIGN</p>
+      <h1>Hi, I'm <span>Stefan.</span><br />I build things for the web.</h1>
+      <p class="hero-copy">I'm focused on building clean, useful digital experiences and learning through real projects.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">View my work</a>
+        <a class="button secondary" href="https://github.com/popstefan480?tab=repositories" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>A little about me.</h2>
+      </div>
+      <div class="about-grid">
+        <p>I'm a Data Science major student who enjoys turning ideas into working projects. I'm currently building my skills across front-end development, Python, data analysis, and application design.</p>
+        <p>I like projects where technology solves a clear problem. My current work ranges from an adaptive music-app concept to analysis of student technology and health data.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects.</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual pulse-visual">
+            <div class="mock-window">
+              <span></span><span></span><span></span>
+              <div class="mock-content">PULSE</div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">01</div>
+            <h3>Pulse</h3>
+            <p>A music application concept that changes music selection based on heart rate and workout intensity.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://popstefan480.github.io/Pule-Music-App/" target="_blank" rel="noreferrer">Live Demo ↗</a>
+              <a href="https://github.com/popstefan480/Pule-Music-App" target="_blank" rel="noreferrer">View Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual data-visual">
+            <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">02</div>
+            <h3>Student Digital Habits Analysis</h3>
+            <p>Python analysis of approximately 16,000 student records exploring relationships between technology use, lifestyle habits, and health metrics.</p>
+            <div class="tags"><span>Python</span><span>NumPy</span><span>Matplotlib</span><span>Jupyter</span></div>
+            <div class="project-links">
+              <a href="https://github.com/popstefan480/DataSet/blob/main/datasset.ipynb" target="_blank" rel="noreferrer">View Analysis ↗</a>
+              <a href="https://github.com/popstefan480/DataSet" target="_blank" rel="noreferrer">View Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card coming-soon">
+          <div class="project-content">
+            <div class="project-number">03</div>
+            <h3>What's next?</h3>
+            <p>This portfolio is also part of the project. More applications and experiments will be added as I build them.</p>
+            <div class="tags"><span>In Progress</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">TOOLBOX</p>
+        <h2>Skills & technologies.</h2>
+      </div>
+      <div class="skills-grid">
+        <div><strong>Languages</strong><p>JavaScript · Python · Java · HTML · CSS</p></div>
+        <div><strong>Data</strong><p>NumPy · Matplotlib · Jupyter · Data Visualization</p></div>
+        <div><strong>Tools</strong><p>Git · GitHub · VS Code</p></div>
+        <div><strong>Creative</strong><p>UI Design · Photography · CGI / 3D</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact container">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Let's build something.</h2>
+      <p>I'm interested in software engineering opportunities, internships, and projects where I can keep learning and contributing.</p>
+      <a class="button primary" href="mailto:YOUR-EMAIL@example.com">popstefan480@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Stefan Pop</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
